@@ -1,8 +1,7 @@
-n=int(input("enter the number"))
-ifn>=0:
-ifn==0:
-print("zero")
+num=float(raw_input())
+if num>0:
+      print("postive number")
+elif num==0:
+	print("zero")
 else:
-       print("postive number")
-else:
-       print("negtive number")
+	print("negtive number")
